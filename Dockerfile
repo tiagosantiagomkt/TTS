@@ -1,4 +1,5 @@
-FROM python:3.10  # sem -slim
+# Usando imagem Python completa (não slim) para compatibilidade com Coqui TTS
+FROM python:3.10
 
 WORKDIR /app
 
